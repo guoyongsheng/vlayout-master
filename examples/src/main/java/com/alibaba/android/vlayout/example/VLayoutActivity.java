@@ -24,24 +24,6 @@
 
 package com.alibaba.android.vlayout.example;
 
-import com.alibaba.android.vlayout.DelegateAdapter;
-import com.alibaba.android.vlayout.LayoutHelper;
-import com.alibaba.android.vlayout.RecyclablePagerAdapter;
-import com.alibaba.android.vlayout.VirtualLayoutManager;
-import com.alibaba.android.vlayout.VirtualLayoutManager.LayoutParams;
-import com.alibaba.android.vlayout.layout.ColumnLayoutHelper;
-import com.alibaba.android.vlayout.layout.FixLayoutHelper;
-import com.alibaba.android.vlayout.layout.FloatLayoutHelper;
-import com.alibaba.android.vlayout.layout.GridLayoutHelper;
-import com.alibaba.android.vlayout.layout.LinearLayoutHelper;
-import com.alibaba.android.vlayout.layout.OnePlusNLayoutHelper;
-import com.alibaba.android.vlayout.layout.RangeGridLayoutHelper;
-import com.alibaba.android.vlayout.layout.RangeGridLayoutHelper.GridRangeStyle;
-import com.alibaba.android.vlayout.layout.ScrollFixLayoutHelper;
-import com.alibaba.android.vlayout.layout.SingleLayoutHelper;
-import com.alibaba.android.vlayout.layout.StaggeredGridLayoutHelper;
-import com.alibaba.android.vlayout.layout.StickyLayoutHelper;
-
 import android.app.Activity;
 import android.content.Context;
 import android.graphics.Color;
@@ -63,7 +45,24 @@ import android.view.ViewTreeObserver.OnGlobalLayoutListener;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import java.util.ArrayList;
+import com.alibaba.android.vlayout.DelegateAdapter;
+import com.alibaba.android.vlayout.LayoutHelper;
+import com.alibaba.android.vlayout.RecyclablePagerAdapter;
+import com.alibaba.android.vlayout.VirtualLayoutManager;
+import com.alibaba.android.vlayout.VirtualLayoutManager.LayoutParams;
+import com.alibaba.android.vlayout.layout.ColumnLayoutHelper;
+import com.alibaba.android.vlayout.layout.FixLayoutHelper;
+import com.alibaba.android.vlayout.layout.FloatLayoutHelper;
+import com.alibaba.android.vlayout.layout.GridLayoutHelper;
+import com.alibaba.android.vlayout.layout.LinearLayoutHelper;
+import com.alibaba.android.vlayout.layout.OnePlusNLayoutHelper;
+import com.alibaba.android.vlayout.layout.RangeGridLayoutHelper;
+import com.alibaba.android.vlayout.layout.RangeGridLayoutHelper.GridRangeStyle;
+import com.alibaba.android.vlayout.layout.ScrollFixLayoutHelper;
+import com.alibaba.android.vlayout.layout.SingleLayoutHelper;
+import com.alibaba.android.vlayout.layout.StaggeredGridLayoutHelper;
+import com.alibaba.android.vlayout.layout.StickyLayoutHelper;
+
 import java.util.LinkedList;
 import java.util.List;
 
@@ -220,6 +219,7 @@ public class VLayoutActivity extends Activity {
                         viewPager.setAdapter(new PagerAdapter(this, viewPool));
                     }
                 }
+
             });
         }
 
