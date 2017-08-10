@@ -50,3 +50,4 @@ lint.xml
 deploy.gradle
 jcenterDeploy.gradle
 jcenterInstall.gradle
+.gitignore
