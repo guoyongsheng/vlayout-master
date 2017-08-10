@@ -48,6 +48,9 @@ import java.util.List;
 /**
  * Created by villadora on 15/8/3. this is a dev branch
  * this is a dev branch this is a dev branch
+ *
+ * kotlin is good for android
+ *
  */
 public class MainActivity extends Activity {
 
